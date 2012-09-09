@@ -9,7 +9,7 @@ App.controller = Em.Object.create({
 
 App.AutoComplete = JQ.AutoComplete.extend({
     source: App.controller.autocomplete
-})
+});
 
 App.View = Em.View.extend({
     controller: App.controller,
