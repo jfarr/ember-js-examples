@@ -6,7 +6,7 @@
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-    <module>jquery-ui-autocomplete-example</module>
-    <module>jquery-ui-dialog-example</module>
+    <module>jquery-ui-autocomplete</module>
+    <module>jquery-ui-dialog</module>
   </modules>
 </project>
