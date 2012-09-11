@@ -1,4 +1,8 @@
-window.App = Em.Application.create();
+window.App = Em.Application.create({
+    ready: function() {
+        App.View.create().append();
+    }
+});
 
 App.controller = Em.Object.create({
   inputText: "",
@@ -15,5 +19,3 @@ App.View = Em.View.extend({
     controller: App.controller,
     templateName: 'view-template'
 });
-
-App.View.create().append();

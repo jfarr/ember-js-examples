@@ -1,5 +1,10 @@
 
-App = Em.Application.create();
+App = Em.Application.create({
+    ready: function() {
+        App.View.create().append();
+        App.Dialog.create().append();
+    }
+});
 
 App.controller = Em.Object.create({
     inputText: '',
@@ -42,7 +47,3 @@ App.Dialog = JQ.Dialog.extend({
         }
     }
 });
-
-
-App.View.create().append();
-App.Dialog.create().append();
