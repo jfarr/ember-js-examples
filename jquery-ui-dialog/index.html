@@ -20,12 +20,10 @@ Saved Text: {{savedText}}
 
 <script type="text/x-handlebars" data-template-name="dialog-template">
 <form>
-<table>
-    <tr>
-        <th>Input&nbsp;Text:&nbsp;</th>
-        <td>{{view Ember.TextField valueBinding="inputText" size="40"}}</td>
-    </tr>   
-</table>
+<fieldset>
+<label for="inputText">Input Text: </label>
+{{view Ember.TextField elementId="inputText" classNames="text ui-widget-content ui-corner-all" valueBinding="inputText"}}
+</fieldset>
 </form>
 </script>
 </head>
