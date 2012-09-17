@@ -1,4 +1,4 @@
-ember-js-examples
+Ember.js Examples
 =================
 
 http://jfarr.github.com/ember-js-examples/
